@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.row {
+    margin: 40px 0px;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    background-color: red;
+    height: 300px;
+    width: 210px;
+    margin: 2px;
+}
