@@ -155,6 +155,5 @@ h3 #line-through {
 }
 
 #red::after, #line-through::after {
-
-content: ' € '
+    content: ' € '
 }
