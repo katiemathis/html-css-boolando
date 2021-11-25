@@ -15,3 +15,53 @@
     width: 210px;
     margin: 2px;
 }
+
+.product #heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.product #discount {
+    position: absolute;
+    margin-right: 5px;;
+    bottom: 10px;
+    left: 0;
+    background-color: #09ff00;
+    height: 10px;
+    width: 20px;
+    text-align: center;
+    font-size: 6px;
+    color: #fff;
+    font-style: bold;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#discount::before {
+    content: '-'
+}
+
+#discount::after {
+    content: '%'
+}
+
+.product #sustainability {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: #09ff00;
+    height: 10px;
+    width: 60px;
+    text-align: center;
+    font-size: 6px;
+    color: #fff;
+    font-style: bold;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
