@@ -4,24 +4,50 @@
 }
 
 .row {
-    margin: 40px 0px;
+    margin: 0;
 }
 
 .product-card {
     position: relative;
-    display: inline-block;
-    background-color: black;
+    display: inline-block;    
     height: 350px;
     width: 210px;
     margin: 2px;
 }
 
 .product-photo {
-    position: absolute;
-    background-color: red;
+    position: absolute;    
     height: 300px;
     width: 210px;
 }
+
+
+.pic {
+    height: 300px;
+    width: 210px;
+}
+
+.pic-b {
+    height: 300px;
+    width: 210px;
+    display: none;
+}
+
+.product-photo-b {
+    position: absolute;    
+    height: 300px;
+    width: 210px;
+}
+
+.product-photo-b:hover {
+    cursor: pointer;
+}
+
+.product-photo-b:hover .pic-b {
+    display: inline-block;
+    z-index: 2;
+}
+
 
 .tags-on-image {
     position: absolute;
@@ -40,6 +66,7 @@
     line-height: 20px;
     text-align: center;
     z-index:2;
+    font-size: 9px;
 }
 
 #discount {
