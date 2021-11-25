@@ -25,12 +25,13 @@
 
 .tags-on-image {
     position: absolute;
-    height: 300px;
-    width: 210px;
+    bottom: 60px;
+    left: 0;
 }
 
 
-.tags-on-image #heart {
+#heart {
+    position: absolute;
     top: 10px;
     right: 0;
     background-color: #fff;
@@ -38,9 +39,10 @@
     width: 20px;
     line-height: 20px;
     text-align: center;
+    z-index:2;
 }
 
-.tags-on-image #discount {
+#discount {
     margin-right: 1px;
     bottom: 10px;
     left: 0;
@@ -53,6 +55,7 @@
     font-style: bold;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
 }
 
 #discount::before {
@@ -63,9 +66,7 @@
     content: '%'
 }
 
-.tags-on-image #sustainability {
-    bottom: 10px;
-    left: 0;
+#sustainability {
     background-color: #09ff00;
     height: 10px;
     width: 60px;
@@ -75,12 +76,21 @@
     font-style: bold;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+}
+
+.product-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    width: 210px;
+    height: 50px;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    z-index: 0;
-    
 }
 
 #brand {
